@@ -9,12 +9,17 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.11",
     "@react-native-material/core": "^1.3.7",
+    "@reduxjs/toolkit": "^1.9.5",
     "expo": "~48.0.15",
     "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
     "react-native": "0.71.7",
-    "@react-native-async-storage/async-storage": "1.17.11"
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

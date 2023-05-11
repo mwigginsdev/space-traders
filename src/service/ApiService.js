@@ -10,12 +10,11 @@ export default class ApiService {
                   'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
-                  symbol: agentName,
+                  symbol: agentName.toUpperCase(),
                   faction: 'COSMIC',
                 }),
               });
             const json = await response.json();
-            console.log(json);
             return json
         } catch(error) {
             console.log(error);
